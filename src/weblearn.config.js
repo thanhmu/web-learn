@@ -7,25 +7,25 @@ const tweet = encodeURIComponent(title)
 export default {
   app: {
     name: 'Web Learn',
-    url: 'https://freearhey.github.io/web-learn/',
+    url: 'https://thanhmu.github.io',
     title: title,
     description: 'Web Learn is an open source service which provides simple access to thousands of video lessons on web developing and programming.',
-    author: 'Arhey',
+    author: 'ThanhMU',
     logo: {
       normal: 'build/images/logo.svg',
       mini: 'build/images/logo-mini.svg',
       share: 'build/images/weblearn-banner.png'
     },
     github: {
-      username: 'freearhey',
-      repo: 'freearhey/web-learn'
+      username: 'thanhmu',
+      repo: 'thanhmu/web-learn'
     },
     twitter: {
-      username: 'arhey',
+      username: 'thanhmu',
       tweet: tweet
     },
     links: [
-      '<a class="github-button" href="https://github.com/freearhey/web-learn" data-count-href="/freearhey/web-learn/stargazers" data-count-api="/repos/freearhey/web-learn#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star freearhey/web-learn on GitHub">Star</a>',
+      '<a class="github-button" href="https://github.com/thanhmu/web-learn" data-count-href="/thanhmu/web-learn/stargazers" data-count-api="/repos//thanhmu/web-learn#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star thanhmu/web-learn on GitHub">Star</a>',
       '<a class="twitter-follow-button" href="https://twitter.com/arhey">Follow @arhey</a>',
       '<a class="twitter-share-button" data-via="arhey" href="https://twitter.com/intent/tweet?text=' + tweet + '">Tweet</a>'
     ]
